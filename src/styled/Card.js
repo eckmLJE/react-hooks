@@ -5,16 +5,16 @@ const Card = styled.div`
   width: 300px;
   background: blue;
   height: 75px;
-  transition: all 0.5s;
+  transition: height 2s, margin-top 1.5s;
   margin: 8px;
 
   ${props =>
     props.view &&
     props.away &&
     css`
-      height: 300px;
+      height: 90vh;
       position: absolute;
-      top: 50px;
+      top: 25px;
     `}
 
   ${props =>

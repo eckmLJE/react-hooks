@@ -50,7 +50,6 @@ function App() {
       >
         4
       </button>
-
       {cards.map(card => (
         <Card view={view === card.id} away={away}>
           {card.id}
